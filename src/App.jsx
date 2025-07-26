@@ -56,9 +56,6 @@ const BASE_URL = 'http://localhost:9090/springapp1';
   };
   */
 
-  useEffect(() => {
-    fetchProducts();
-  }, []);
 
   return (
     <div className="container mt-4">
